@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import {AppRoutingModule} from './app-routing.module'
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './Components/Linked/header/header.component';
@@ -12,6 +13,9 @@ import { ProductListComponent } from './Components/product-list/product-list.com
 import { CartComponent } from './Components/cart/cart.component';
 import { CartItemComponent } from './Components/cart-item/cart-item.component';
 import { ProductItemComponent } from './Components/product-list/product-item/product-item.component';
+import { LoginComponent } from './Components/login/login.component';
+import { RegisterComponent } from './Components/register/register.component';
+import { PageNotFoundComponent } from './Components/Linked/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +28,16 @@ import { ProductItemComponent } from './Components/product-list/product-item/pro
     ProductListComponent,
     CartComponent,
     CartItemComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    LoginComponent,
+    RegisterComponent,
+    PageNotFoundComponent
+    
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
