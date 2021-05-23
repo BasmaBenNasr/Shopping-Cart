@@ -1,0 +1,65 @@
+{
+
+  "products":[
+    {
+      "id":1,
+      "name":"Wyze Cam v3 1080p HD",
+      "description": "Indoor/Outdoor Video Camera for Security, Pets, Baby Monitor, w/Color Night Vision, 2-Way Audio",
+      "price":1800,
+      "imageUrl":"https://images-na.ssl-images-amazon.com/images/I/61DJRLNgyWL._AC_SL1500_.jpg"
+    },
+    {
+      "id":2,
+      "name":"Zmodo Outdoor Security Camera",
+      "description": "Full HD Home Security Camera System, Works with Alexa and Google Assistant",
+      "price":2000,
+      "imageUrl":"https://images-na.ssl-images-amazon.com/images/I/61YfUQo5SMS._AC_SL1500_.jpg"
+    },
+    {
+      "id":3,
+      "name":"Furbo Dog Camera",
+      "description": "Treat Tossing, Full HD Wifi Pet Camera and 2-Way Audio, Designed for Dogs",
+      "price":900,
+      "imageUrl":"https://images-na.ssl-images-amazon.com/images/I/512QKheNJ5L._AC_SL1000_.jpg"
+    },
+    {
+      "id":4,
+      "name":"GoPro HERO9 Black ",
+      "description": "Waterproof Action Camera with Front LCD and Touch Rear Screens, 5K Ultra HD Video",
+      "price":2250,
+      "imageUrl":"https://images-na.ssl-images-amazon.com/images/I/71f8wMHfklL._AC_SL1500_.jpg"
+    },
+    {
+      "id":5,
+      "name":"Google Nest Cam Indoor",
+      "description": "Wired Indoor Camera for Home Security - Control with Your Phone and Get Mobile Alerts",
+      "price":1600,
+      "imageUrl":"https://images-na.ssl-images-amazon.com/images/I/71CB6UiirBL._AC_SL1500_.jpg"
+    },
+    {
+      "id":6,
+      "name":"Arlo Pro 4 Spotlight Camera",
+      "description": "1 Pack - Wireless Security, 2K Video & HDR, Color Night Vision",
+      "price":1400,
+      "imageUrl":"https://images-na.ssl-images-amazon.com/images/I/41ts-VkEtkS._AC_SL1000_.jpg"
+    }
+
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

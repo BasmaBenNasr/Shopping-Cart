@@ -20,14 +20,30 @@ export class CartComponent implements OnInit {
     })
   }
 
+
   addProductToCart(product: Product){
-    
+  //check first if the product exist so pultiply that item ++
+  let existed = false;
+
+  for(let item in this.cartItems){
+    if(this.cartItems[item].productId === product.id){
+      this.cartItems[item].qty++
+      existed = true
+      break;
+    }
+  }
+  
+
+  //if the product doesnt exist in the cartItem already so just i need to push it 
+  if(!existed){
     this.cartItems.push({
       productId: product.id,
       productName: product.name,
       qty: 1,
       price: product.price
     })
+  }
+
 
     this.cartTotal = 0
     this.cartItems.forEach(item =>{
