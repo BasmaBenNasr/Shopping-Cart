@@ -9,6 +9,9 @@ import { FormControl, FormGroup,FormBuilder, Validators } from '@angular/forms'
 export class RegisterComponent implements OnInit {
 
 registerForm: FormGroup;
+isShown: boolean = false ; // hidden by default
+
+
 
 
   constructor(private builder: FormBuilder) { }
@@ -31,5 +34,10 @@ registerForm: FormGroup;
   register(){
     console.log(this.registerForm.value)
   }
+  
+  toggleShow() {
 
+    this.isShown = ! this.isShown;
+    
+    }
 }

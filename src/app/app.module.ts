@@ -32,7 +32,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ProductItemComponent,
     LoginComponent,
     RegisterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    
+    
     
   ],
   imports: [
