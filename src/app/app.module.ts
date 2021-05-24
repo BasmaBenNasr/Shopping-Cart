@@ -16,6 +16,7 @@ import { ProductItemComponent } from './Components/product-list/product-item/pro
 import { LoginComponent } from './Components/login/login.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { PageNotFoundComponent } from './Components/Linked/page-not-found/page-not-found.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { PageNotFoundComponent } from './Components/Linked/page-not-found/page-n
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
